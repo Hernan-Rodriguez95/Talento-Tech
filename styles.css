@@ -8,6 +8,22 @@ p {
    padding-top: 5%;
 
 }
+.parrafos{
+   border: #EBEBEB solid;
+   background: transparent;
+   backdrop-filter: blur(20px);
+   background-color: #ff9e00;
+   color: whitesmoke;
+   background: transparent;
+   backdrop-filter: blur(20px);
+   border: rgba(255, 214, 10, .9);
+   border-radius: 13px;
+   width: 300px;
+   margin: 3%;
+   text-align: center;
+   padding-bottom: 10px;
+   padding-top: 0;
+}
 
 h1 {
    text-align:center; 
@@ -16,15 +32,35 @@ h1 {
 h2 {
    text-align:center;/* center | justify | right | left */
  }
+.cuadros{
+   border: #EBEBEB solid;
+   background: transparent;
+   backdrop-filter: blur(20px);
+   background-color: #ff9e00;
+   color: whitesmoke;
+   background: transparent;
+   backdrop-filter: blur(20px);
+   border: rgba(255, 214, 10, .9);
+   border-radius: 13px;
+   width: 350px;
+   height: 500px;
+   padding-top: 0;
+   padding-bottom: 0;
+   padding-left: 1%;
+   margin-left: 70%;
+   text-align: right;;
 
+}
 body {
    background: #001b58;
    font-family: Verdana, Tahoma, sans-serif;
-   background-image: url(imagenes/boca\,bocaa.jpg);
-   background-position: left;
+   background-image: url(imagenes/HD-wallpaper-martin-palermo-boca-juniors-genio-martinpalermo.jpg);
+   background-size: 80%;
+   padding-top: 0%;
+   width: 100%;
+   height: 70%;
+   
 }
-
-
 
 .menu {
    width: 900px;
@@ -36,9 +72,10 @@ body {
 img {
    width: 70px;
    height: 60px;
-   float: left;
    position: 1px;
-   padding: 15px;}
+   padding: 15px;
+   padding-bottom: 0%;
+}
 
 nav {
    float: right;
@@ -79,9 +116,11 @@ nav ul li a:hover::before {
 .banner {
    background-color: #f17300;
    text-align: right;
+   background: transparent;
    background-image: url('imagenes/footer-boca.avif');
-   background-position: center; /* La imagen cubre todo el contenedor */
+   background-position: center;
    /*background-position-x: left; /* Centra la imagen */
+   /*backgroun: cover - amplia la imagen*/
 
 }
 
@@ -115,7 +154,10 @@ input {
    right: 3%;
    padding-bottom: 0;
    padding-top: 1%;
-   background: #f17300;
+   background: transparent;
+   backdrop-filter: blur(20px);
+   border: rgba(255, 214, 10, .9);
+   color: #001b58;
    border-radius: 13px;
 }
 
@@ -166,7 +208,7 @@ footer{
    margin-top: 10%;
    padding: 1%;
    border: #001b58;
-   background-image: url(imagenes/footer-boca.avif); 
-   background-position: center;
+   background-image: url(imagenes/footer-boca.avif);
+   background-size: cover;
 
 }
